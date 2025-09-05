@@ -1,0 +1,99 @@
+/* GENERAL */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header h1 {
+  margin: 0;
+  flex-grow: 1;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #6200ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+section {
+  flex: 1 1 45%;
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.card {
+  background-color: #2c2c2c;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1f1f1f;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+#skillsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#skillsList li {
+  background-color: #2c2c2c;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+}
